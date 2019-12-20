@@ -1,0 +1,13 @@
+<h1>Merry Christmas!</h1>
+<h3>Press the button below for attention</h3>
+<script>
+function playSound () {
+    document.getElementById('play').play();
+}
+</script>
+<div class="attentionButton">
+  <audio id="play" src="https://www.soundjay.com/human/sneezing-1.wav"></audio>
+  <button onclick="playSound()">ATTENTION</button>
+</div>
+
+<%= link_to "Requests", requests_path %>
